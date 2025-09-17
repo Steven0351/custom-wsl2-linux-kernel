@@ -261,6 +261,7 @@ build_pkgs_fn()
 # install required apt packages
 build_pkgs_fn
 
+#
 VERSION=6.6.87.2
 
 if build 'wsl2-linux-kernel' "linux-msft-wsl-${VERSION}"; then
